@@ -1,5 +1,7 @@
 import { useEffect, useState } from 'react';
 import axios from 'axios';
+import Login from './Login';
+import Player from './componentes/Player'
 import {
   redirectUrl,
   loginUrl,
@@ -19,7 +21,7 @@ const App = () => {
       const params = new URLSearchParams();
       params.append('grant_type', 'authorization_code');
       params.append('code', code);
-      params.append('redirect_uri', redirectUrl);
+      params.append('redirect_uri', redirectUrl); //Devuelve el authorization_code
       axios.post('https://accounts.spotify.com/api/token', params, {
         headers: {
           Authorization: 'Basic ' + (new Buffer(clientId + ':' + clientSecret).toString('base64')),
@@ -45,14 +47,14 @@ const App = () => {
         .then(res => console.log(res.data));
     }
   };
+  
 
   return (
     <div className="App">
-      <h1>Ejemplo Spotify</h1>
-      <a className="btn" href={loginUrl}>Login with Spotify</a>
-      {code && <h3>Logged in</h3>}
-      <button className="btn" onClick={makeRequest}>Request to Web API</button>
+      {token ? <Player /> : <Login />}
     </div>
+
+
   );
 };
 

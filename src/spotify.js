@@ -1,9 +1,9 @@
 const authEndpoint = 'https://accounts.spotify.com/authorize';
 export const redirectUrl = 'http://localhost:3000/';
-export const clientId = 'REEMPLAZAR POR TU CLIENT ID';
-export const clientSecret = 'REEMPLAZAR POR TU CLIENT SECRET';
+export const clientId = 'f24ab3a85bb648afa08f27061f22b28e';
+export const clientSecret = 'db625189c49241fbb30652fe23eb1420';
 
-const scopes = [
+const scopes = [ //acceso al nombre completo del usuario, la imagen de perfil y la dirección de correo electrónico.
   'streaming',
   'user-read-email',
   'user-read-private'
