@@ -1,20 +1,23 @@
-body {
+  .App{
+    display: grid;
+    place-items: center;
+    height: 20%;
     margin: 0;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-      sans-serif;
+     font-family: sans-serif;
     -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
+    -moz-osx-font-smoothing: grayscale; 
   }
-  
+
+
   .btn {
-    border: 1px solid #1DB954;
+    border: 1px solid #fbceff;
     text-decoration: none;
-    color: white;
-    background: #1DB954;
+    color: rgb(66, 43, 66);
+    background: #fbceff;;
     padding: 10px;
     border-radius: 10px;
     margin: 5px;
+    font-weight: 700;
   }
   
   code {

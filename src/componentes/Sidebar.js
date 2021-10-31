@@ -3,7 +3,7 @@ import '../estilos/Sidebar.css';
 
 function Sidebar() {
     return (
-        <div>
+        <div className="Sidebar-body">
             <h1>Sidebar</h1>
         </div>
     )

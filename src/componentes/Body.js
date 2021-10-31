@@ -3,7 +3,7 @@ import '../estilos/Body.css';
 
 function Body() {
     return (
-        <div>
+        <div className="Body">
             <h1>Body</h1>
         </div>
     )
