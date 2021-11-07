@@ -2,6 +2,7 @@ import { useEffect, useState } from 'react';
 import axios from 'axios';
 import Login from './Login';
 import Player from './componentes/Player'
+import './estilos/App.css';
 import {
   redirectUrl,
   loginUrl,

@@ -1,12 +1,4 @@
-  .App{
-    display: grid;
-    place-items: center;
-    height: 20%;
-    margin: 0;
-     font-family: sans-serif;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale; 
-  }
+.Loginbody{}
 
 
   .btn {

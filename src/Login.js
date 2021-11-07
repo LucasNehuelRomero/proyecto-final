@@ -6,7 +6,7 @@ import code from "./App";
 
 function Login() {
     return (
-        <div className="App">
+        <div className="LoginBody">
       <h1>Fuzzy</h1>
       <a className="btn" href={loginUrl}>Login with Spotify</a>
       {code && <h3>Logged in</h3>}
