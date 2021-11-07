@@ -1,0 +1,10 @@
+.sidebarOption{
+    color: rgb(190, 190, 190);
+    height: 40px;
+    cursor: pointer;
+    transition: 70ms color ease-in; /*tiempo de transición de color gris a blanco(hover)*/ 
+}
+
+.sidebarOption:hover{
+    color: white;
+}
