@@ -48,7 +48,6 @@ const App = () => {
         .then(res => console.log(res.data));
     }
   };
-  
 
   return (
     <div className="App">
