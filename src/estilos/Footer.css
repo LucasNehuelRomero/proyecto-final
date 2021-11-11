@@ -1,8 +1,48 @@
 .Footer{
     position: fixed;
+    display: flex;
+    justify-content: space-between;
     bottom: 0;
     height: 65px;
-    width: 100%;
+    width: 97%;
     background-color: #2c2c2c;
     padding: 20px;
+}
+.footerLeft{
+    flex: 0.3;
+    display: flex;
+    align-items: center;
+    color: white;
+    width: 300px;
+}
+
+.songInfo{
+    padding: 15px;
+}
+.songInfo > p{
+    margin-top: 10px;
+}
+
+.albumLogo{
+    height: 70px;
+    width:70px;
+    margin-left: 20px;
+    object-fit: contain;
+}
+
+.footerCenter{
+    flex: 0.4;
+    padding: 0 100px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 300px;
+}
+.footerRight{
+    flex: 0.3;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
 }

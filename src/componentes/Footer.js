@@ -1,10 +1,33 @@
 import React from 'react';
 import '../estilos/Footer.css';
+import {AiFillPlayCircle} from 'react-icons/ai';
+import {BsFillSkipEndFill} from 'react-icons/bs';
+import {BsFillSkipStartFill} from 'react-icons/bs';
+import {IoShuffleOutline} from 'react-icons/io5';
+import {AiFillHeart} from 'react-icons/ai';
+
+// ./imagenesprueba/pantera-vulgar.jpg
 
 function Footer() {
     return (
         <div className="Footer">
-            <h1>Footer</h1>
+            <div className="footerLeft">
+            <img className="albumLogo" src="./imagenesprueba/pantera-vulgar.jpg" alt="" />
+            <div className="songInfo">
+                <h1>Song</h1>
+                <p>Artist</p>
+            </div>
+            </div>
+            <div className="footerCenter">
+            <IoShuffleOutline className="shuffleicon" />
+            <BsFillSkipStartFill className="skipstart" />
+            <AiFillPlayCircle fontSize="large" className="playicon" />
+            <BsFillSkipEndFill className="skipend" />
+            <AiFillHeart className="like" />
+            </div>
+            <div className="footerRight">
+            <p>Footerright</p>   
+            </div>
         </div>
     )
 }
