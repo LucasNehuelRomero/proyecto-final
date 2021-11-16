@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import axios from 'axios';
 import Login from './Login';
-import Player from './componentes/Player'
+import Player from './Player/Player'
 import './estilos/App.css';
 import {
   redirectUrl,
@@ -50,10 +50,10 @@ const App = () => {
   };
 
   return (
-    <div className="App">
-      {token ? <Player /> : <Login />}
+      <div className="App">     
+        {token ? <Player /> : <Login />}
     </div>
-
+    
 
   );
 };

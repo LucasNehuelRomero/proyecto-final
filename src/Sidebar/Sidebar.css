@@ -12,3 +12,7 @@
     padding: 10px;
     font-size: 13px;
 }
+.Sidebar-body > h1 {
+    margin: 10px;
+    padding: 10px;
+}

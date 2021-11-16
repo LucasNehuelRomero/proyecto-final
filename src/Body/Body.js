@@ -4,7 +4,7 @@ import '../estilos/Body.css';
 function Body() {
     return (
         <div className="Body">
-            <h1>Body</h1>
+            <h1>¡Hola! ¿Qué quieres escuchar hoy?</h1>
         </div>
     )
 }

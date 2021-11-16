@@ -14,14 +14,14 @@ function Footer() {
             <div className="footerLeft">
             <img className="albumLogo" src="./imagenesprueba/pantera-vulgar.jpg" alt="" />
             <div className="songInfo">
-                <h1>Song</h1>
-                <p>Artist</p>
+                <h1>Canción</h1>
+                <p>Artista</p>
             </div>
             </div>
             <div className="footerCenter">
             <IoShuffleOutline className="shuffleicon" />
             <BsFillSkipStartFill className="skipstart" />
-            <AiFillPlayCircle fontSize="large" className="playicon" />
+            <AiFillPlayCircle className="playicon" />
             <BsFillSkipEndFill className="skipend" />
             <AiFillHeart className="like" />
             </div>
