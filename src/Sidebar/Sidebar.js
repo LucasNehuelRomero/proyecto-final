@@ -1,5 +1,5 @@
 import React from 'react'
-import '../estilos/Sidebar.css';
+import '../Sidebar/Sidebar.css';
 import SidebarOption from '../SidebarOption/SidebarOption';
 import {AiFillHome} from 'react-icons/ai';
 import {MdLibraryMusic} from 'react-icons/md';

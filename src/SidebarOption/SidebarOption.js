@@ -1,5 +1,5 @@
 import React from 'react';
-import "../estilos/SidebarOption.css";
+import "../SidebarOption/SidebarOption.css";
 
 function SidebarOption({ title, Icon}) {
     return (

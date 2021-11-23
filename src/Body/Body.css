@@ -5,3 +5,7 @@
     color: white;
     background: linear-gradient(rgb(105, 88, 105), rgba(0, 0, 0, 1));
 }
+.Body > h1{
+    font-size: 49px;
+    margin-bottom: 10px;
+}

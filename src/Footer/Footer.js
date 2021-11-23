@@ -1,5 +1,5 @@
 import React from 'react';
-import '../estilos/Footer.css';
+import '../Footer/Footer.css';
 import {AiFillPlayCircle} from 'react-icons/ai';
 import {BsFillSkipEndFill} from 'react-icons/bs';
 import {BsFillSkipStartFill} from 'react-icons/bs';

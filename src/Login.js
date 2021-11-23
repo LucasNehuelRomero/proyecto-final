@@ -1,5 +1,5 @@
 import React from 'react'
-import "./estilos/Login.css";
+import "./Login.css";
 import {loginUrl} from "./spotify";
 import makeRequest from "./App";
 import code from "./App";
