@@ -5,25 +5,17 @@ import {AiFillHome} from 'react-icons/ai';
 import {MdLibraryMusic} from 'react-icons/md';
 import {BiSearch} from 'react-icons/bi';
 import {BiUser} from 'react-icons/bi';
-import { Route, BrowserRoute as Router } from 'react-router';
+import Content from './Content';
 
 function Sidebar() {
     return (
         <div className="Sidebar-body">
             <h1>Fuzzy</h1>
-
-                <Route path="/Usuario">
+                <Content />
                 <SidebarOption Icon={BiUser} title="Usuario" />
-            </Route>
-                <Route path="/Inicio">
                 <SidebarOption Icon={AiFillHome} title="Inicio" />
-            </Route>
-                <Route path="/Buscar">
                 <SidebarOption Icon={BiSearch} title="Buscar" />
-            </Route>
-                <Route path="/Tumúsica">
                 <SidebarOption Icon={MdLibraryMusic} title="Tu música"  />
-            </Route>
        <br />
        <strong className="sidebar__title">PLAYLIST</strong>
        <hr />

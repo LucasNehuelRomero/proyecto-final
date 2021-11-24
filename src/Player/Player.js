@@ -105,6 +105,7 @@ function Player(props) {
                     </div>
                 </div>
             </>
+        
         );
     }
 }
@@ -117,7 +118,6 @@ function Player(props) {
             </div>
             <Footer />
         </div>
-
     )
-
+        
 export default Player
